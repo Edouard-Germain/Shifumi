@@ -12,7 +12,7 @@
         <h1 class="text-white d-flex justify-content-center">
             Shifumi
         </h1>
-        <h2 id="endgame"></h2>
+        <!--<h2 id="endgame"></h2>-->
     </header>
     <section id= "game">
         <div class="ia mt-4 mb-4">
@@ -21,14 +21,14 @@
             <img id="imgAI" class ="d-flex justify-content-center ">
             </div>
         </div>
-        <div class= "scoretable d-flex justify-content-center ">
+        <div class= "scoretable d-flex justify-content-center bg-dark text-white mt-1 m-b1 ">
             <div>
                 <h2>Player : </h2>
-                <p></p>
+                <p id="splayer"></p>
             </div>
-            <div class="ps-2">
+            <div  class="ps-2">
                 <h2>AI : </h2>
-                <p></p>
+                <p id ="sai"></p>
             </div>
 
         </div>
@@ -38,9 +38,9 @@
             </div>
             <h2 class="d-flex justify-content-center text-white"> Player</h2>
             <div choices class="d-flex justify-content-center">
-                <button id="rock" onClick="Rock()">Rock</button>
-                <button id="paper"onClick="Paper()">Paper</button>
-                <button id="scissor"onClick="Scissor()">Scissor</button>
+                <button id="rock" onClick="Rock()" onClick="tourne()">Rock</button>
+                <button id="paper"onClick="Paper()" onClick="tourne()">Paper</button>
+                <button id="scissor"onClick="Scissor()" onClick="tourne()">Scissor</button>
             </div>
         </div>    
     </section>
