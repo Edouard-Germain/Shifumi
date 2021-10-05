@@ -118,7 +118,7 @@ function Scissor(){
      
     if (turn === 5 && scorePlayer > scoreAI){
         console.log("You win")
-        window.alert("You win baby ! ")
+        window.alert("You win baby !")
 
     } else if (turn === 5 && scoreAI > scorePlayer){
         console.log("You loose")
